@@ -100,9 +100,9 @@ def insertMedias(medias,nome_alunos):
 
 def createGrafico(medias,nome_alunos):
     medias.sort()
-    plt.plot(nome_alunos,medias, color='green', marker='o',linestyle='solid')
+    plt.plot(nome_alunos,medias, color='blue', marker='o',linestyle='solid')
     plt.title("Grafico de Medias dos alunos!")
-    plt.ylabel("#!")
+    plt.ylabel("Médias não ordenadas")
     plt.show();
     
     
